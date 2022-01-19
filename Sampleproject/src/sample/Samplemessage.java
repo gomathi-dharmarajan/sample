@@ -19,7 +19,7 @@ public class Samplemessage {
 			n=n/10;
 			
 		}
-		System.out.println(s);
+		System.out.println("the reversed number is"+s);
 		if(n1==s)
 		{
 			System.out.println("Palindrome");
