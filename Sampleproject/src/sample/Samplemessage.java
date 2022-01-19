@@ -11,6 +11,7 @@ public class Samplemessage {
 		int s=0;
 		Scanner sc=new Scanner(System.in);
 		n=sc.nextInt();
+		int n1=n;
 		while(n>0)
 		{
 			r=n%10;
@@ -19,6 +20,10 @@ public class Samplemessage {
 			
 		}
 		System.out.println(s);
+		if(n1==s)
+		{
+			System.out.println("Palindrome");
+		}
 	}
 
 }
