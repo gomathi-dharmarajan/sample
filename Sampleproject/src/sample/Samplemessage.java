@@ -22,7 +22,7 @@ public class Samplemessage {
 		System.out.println("the reversed number is"+s);
 		if(n1==s)
 		{
-			System.out.println("Palindrome");
+			System.out.println("Palindrome"+n1);
 		}
 	}
 
